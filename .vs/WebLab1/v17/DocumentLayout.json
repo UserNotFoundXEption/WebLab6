@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lordk\\source\\repos\\WebLab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|c:\\users\\lordk\\source\\repos\\weblab6\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|solutionrelative:websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|c:\\users\\lordk\\source\\repos\\weblab6\\wwwroot\\js\\main-script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|solutionrelative:wwwroot\\js\\main-script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|c:\\users\\lordk\\source\\repos\\weblab6\\wwwroot\\js\\reports.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|solutionrelative:wwwroot\\js\\reports.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|c:\\users\\lordk\\source\\repos\\weblab6\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|solutionrelative:pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|c:\\users\\lordk\\source\\repos\\weblab6\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|c:\\users\\lordk\\source\\repos\\weblab6\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|solutionrelative:report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|c:\\users\\lordk\\source\\repos\\weblab6\\pages\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|solutionrelative:pages\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|c:\\users\\lordk\\source\\repos\\weblab6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}|WebLab1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Data.cs",
+              "RelativeDocumentMoniker": "Data.cs",
+              "ToolTip": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Data.cs",
+              "RelativeToolTip": "Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:08:08.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Report.cs",
+              "RelativeDocumentMoniker": "Report.cs",
+              "ToolTip": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Report.cs",
+              "RelativeToolTip": "Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:08:25.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebSocketHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lordk\\source\\repos\\WebLab6\\WebSocketHandler.cs",
+              "RelativeDocumentMoniker": "WebSocketHandler.cs",
+              "ToolTip": "C:\\Users\\lordk\\source\\repos\\WebLab6\\WebSocketHandler.cs",
+              "RelativeToolTip": "WebSocketHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwDwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:26:49.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:25:49.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Pages\\admin.cshtml",
+              "RelativeDocumentMoniker": "Pages\\admin.cshtml",
+              "ToolTip": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Pages\\admin.cshtml",
+              "RelativeToolTip": "Pages\\admin.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T06:47:01.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "user.cshtml",
+              "DocumentMoniker": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Pages\\user.cshtml",
+              "RelativeDocumentMoniker": "Pages\\user.cshtml",
+              "ToolTip": "C:\\Users\\lordk\\source\\repos\\WebLab6\\Pages\\user.cshtml",
+              "RelativeToolTip": "Pages\\user.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T07:05:10.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "reports.js",
+              "DocumentMoniker": "C:\\Users\\lordk\\source\\repos\\WebLab6\\wwwroot\\js\\reports.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\reports.js",
+              "ToolTip": "C:\\Users\\lordk\\source\\repos\\WebLab6\\wwwroot\\js\\reports.js",
+              "RelativeToolTip": "wwwroot\\js\\reports.js",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwEsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-03T06:30:18.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main-script.js",
+              "DocumentMoniker": "C:\\Users\\lordk\\source\\repos\\WebLab6\\wwwroot\\js\\main-script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\main-script.js",
+              "ToolTip": "C:\\Users\\lordk\\source\\repos\\WebLab6\\wwwroot\\js\\main-script.js",
+              "RelativeToolTip": "wwwroot\\js\\main-script.js",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-07T15:55:13.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

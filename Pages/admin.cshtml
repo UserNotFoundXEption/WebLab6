@@ -1,0 +1,109 @@
+﻿@page
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/css/template_style.css">>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html, body, h1, h2, h3, h4, h5 {
+            font-family: "Open Sans", sans-serif
+        }
+    </style>
+</head>
+<body class="w3-theme-l5">
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+            <a href="/admin" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Admin"><i class="fa fa-user"></i></a>
+            <a href="/user/?id=1" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="User 1"><i class="fa fa-user"></i></a>
+            <a href="/user/?id=2" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="User 2"><i class="fa fa-user"></i></a>
+            <a href="/user/?id=3" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="User 3"><i class="fa fa-user"></i></a>
+        </div>
+    </div>
+    <!-- Page Container -->
+    <div class="w3-container w3-content" style="margin-top:80px; width: 100%">
+        <!-- Reports -->
+        <div class="w3-row" >
+            <div class="w3-row-padding">
+                <div class="w3-col m12">
+                    <div class="w3-card w3-round w3-white">
+                        <div class="w3-container w3-padding">
+                            <h3>Reports</h3>
+                            <table id="dynamicTable" class="w3-table-all w3-hoverable">
+                                <thead>
+                                    <tr class="w3-theme-d2">
+                                        <th>User</th>
+                                        <th>Report</th>
+                                        <th>Status</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Rows of reports table -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Chats -->
+        <div class="w3-row-padding w3-margin-top">
+            <!-- Chat 1 -->
+            <div class="w3-third">
+                <div class="w3-card w3-round w3-white">
+                    <div class="w3-container w3-padding">
+                        <h4>Chat with user1</h4>
+                        <div id="chatBox1" class="w3-border w3-light-grey" style="height: 200px; overflow-y: auto; margin-bottom: 10px;">
+                            <!-- Messages -->
+                        </div>
+                        <input type="text" id="chatInput1" class="w3-input w3-border" placeholder="Write something..." autocomplete="off">
+                        <button onclick="chatNewMessage('chatInput1')" class="w3-button w3-theme-d2 w3-margin-top"><i class="fa fa-paper-plane"></i> Send</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat 2 -->
+            <div class="w3-third">
+                <div class="w3-card w3-round w3-white">
+                    <div class="w3-container w3-padding">
+                        <h4>Chat with user2</h4>
+                        <div id="chatBox2" class="w3-border w3-light-grey" style="height: 200px; overflow-y: auto; margin-bottom: 10px;">
+                            <!-- Messages -->
+                        </div>
+                        <input type="text" id="chatInput2" class="w3-input w3-border" placeholder="Write something..." autocomplete="off">
+                        <button onclick="chatNewMessage('chatInput2')" class="w3-button w3-theme-d2 w3-margin-top"><i class="fa fa-paper-plane"></i> Send</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat 3 -->
+            <div class="w3-third">
+                <div class="w3-card w3-round w3-white">
+                    <div class="w3-container w3-padding">
+                        <h4>Chat with user3</h4>
+                        <div id="chatBox3" class="w3-border w3-light-grey" style="height: 200px; overflow-y: auto; margin-bottom: 10px;">
+                            <!-- Messages -->
+                        </div>
+                        <input type="text" id="chatInput3" class="w3-input w3-border" placeholder="Write something..." autocomplete="off">
+                        <button onclick="chatNewMessage('chatInput3')" class="w3-button w3-theme-d2 w3-margin-top"><i class="fa fa-paper-plane"></i> Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/reports.js"></script>
+    <script src="~/js/chat.js"></script>
+    <script src="~/js/main-script.js"></script>
+</body>
+</html>
