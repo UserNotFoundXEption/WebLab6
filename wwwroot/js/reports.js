@@ -28,19 +28,21 @@ function reportsSaveButton(button) {
 }
 
 //wywolane przez websocket
-function reportsAddReportUser(reportId, report, status) {
-    const table = document.getElementById("dynamicTable").getElementsByTagName('tbody')[0];
+function reportsAddReportUser(reportId, userId, report, status) {
+    if (userId == chatGetUserId()) {
+        const table = document.getElementById("dynamicTable").getElementsByTagName('tbody')[0];
 
-    const newRow = table.insertRow();
-    newRow.setAttribute("report-id", reportId);
-    const reportCell = newRow.insertCell(0);
-    const statusCell = newRow.insertCell(1);
-    const actionCell = newRow.insertCell(2);
+        const newRow = table.insertRow();
+        newRow.setAttribute("report-id", reportId);
+        const reportCell = newRow.insertCell(0);
+        const statusCell = newRow.insertCell(1);
+        const actionCell = newRow.insertCell(2);
 
-    reportCell.innerHTML = `<span>${report}</span>`;
-    statusCell.innerHTML = `<span>${status}</span>`
-    actionCell.innerHTML = `
+        reportCell.innerHTML = `<span>${report}</span>`;
+        statusCell.innerHTML = `<span>${status}</span>`
+        actionCell.innerHTML = `
             <button onclick="reportsDeleteButton(this)" class="w3-button w3-red"><i class="fa fa-trash"></i> Delete</button>`;
+    }
 }
 
 //wywolane przez websocket
@@ -75,15 +77,17 @@ function reportsHandleStatusChange(statusCell) {
 //wywolane przez websocket
 function reportsChangeStatus(reportId, status) {
     const report = reportsGetReport(reportId);
-    if (window.location.pathname == '/admin') {
-        report.cells[2].innerHTML = `<select class="w3-select" onchange="reportsHandleStatusChange(this)">
+    if (report) {
+        if (window.location.pathname == '/admin') {
+            report.cells[2].innerHTML = `<select class="w3-select" onchange="reportsHandleStatusChange(this)">
         <option value="Pending" ${status === "Pending" ? "selected" : ""}>Pending</option>
         <option value="Completed" ${status === "Completed" ? "selected" : ""}>Completed</option>
         <option value="In Progress" ${status === "In Progress" ? "selected" : ""}>In Progress</option>
     </select>`;
-    }
-    else {
-        report.cells[1].innerHTML = `<span>${status}</span>`;
+        }
+        else {
+            report.cells[1].innerHTML = `<span>${status}</span>`;
+        }
     }
 }
 

@@ -32,7 +32,7 @@
                     reportsAddReportAdmin(data.reportId, data.userId, data.report, data.status)
                 }
                 else {
-                    reportsAddReportUser(data.reportId, data.report, data.status);
+                    reportsAddReportUser(data.reportId, data.userId, data.report, data.status);
                 }
                 break;
             case "deleteReport":
@@ -46,7 +46,7 @@
                 }
                 else {
                     data.forEach((report) => {
-                        reportsAddReportUser(report.reportId, report.report, report.status);
+                        reportsAddReportUser(report.reportId, report.userId, report.report, report.status);
                     });
                 }
                 break;
