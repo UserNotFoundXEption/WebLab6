@@ -31,3 +31,7 @@ C:\Users\lordk\source\repos\Websockets\WebLab6\obj\Debug\net6.0\refint\WebLab1.d
 C:\Users\lordk\source\repos\Websockets\WebLab6\obj\Debug\net6.0\WebLab1.pdb
 C:\Users\lordk\source\repos\Websockets\WebLab6\obj\Debug\net6.0\WebLab1.genruntimeconfig.cache
 C:\Users\lordk\source\repos\Websockets\WebLab6\obj\Debug\net6.0\ref\WebLab1.dll
+C:\Users\lordk\source\repos\Websockets\WebLab6\bin\Debug\net6.0\WebLab1.staticwebassets.endpoints.json
+C:\Users\lordk\source\repos\Websockets\WebLab6\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\lordk\source\repos\Websockets\WebLab6\obj\Debug\net6.0\staticwebassets\msbuild.WebLab1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\lordk\source\repos\Websockets\WebLab6\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt

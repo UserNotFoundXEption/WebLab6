@@ -5,8 +5,6 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLab1", "WebLab1.csproj", "{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowTests", "..\SpecFlowTests\SpecFlowTests.csproj", "{4D848964-EB70-467A-8EB5-A0689A5758A9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31C07AC0-CD04-48D5-B215-E5F2FA0AF6FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D848964-EB70-467A-8EB5-A0689A5758A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D848964-EB70-467A-8EB5-A0689A5758A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D848964-EB70-467A-8EB5-A0689A5758A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D848964-EB70-467A-8EB5-A0689A5758A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
